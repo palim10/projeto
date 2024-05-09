@@ -1,21 +1,34 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
 
+/*INICIO DO CABEÇALHO*/
 header {
+background-color: #1c0b1b;
 
 }
+
+header nav ul li a{color: white;}
 
 header div {
     max-width: 900px;
     padding: 0 10px 0 0;
     margin: 0 auto;
-    height: 100%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/*FINAL CABEÇALHO*/
+
+
+/*FUNDO DO SITE*/
+body{background: linear-gradient(90deg, #532051, rgb(121, 10, 136));    
+    color: rgb(255, 254, 254);
+}
+/*FINAL DO FUNDO DO SITE*/
+
 
 nav ul {
     display: flex;
@@ -25,20 +38,17 @@ nav ul {
 
 
 /* footer */
-
  /* quadrado rodape*/
 footer {
-       
+      background-color: #1c0b1b;
+       padding: 20px;
     }
     
-
-
   /* quadrado rodape*/
 footer .conteiner{
    display: flex;
    color: white;
 }
-
 
 /* quadrado sla*/
 footer .conteiner ul{ 
@@ -47,25 +57,21 @@ footer .conteiner ul{
     font-weight: 600;
 }
 
-
 /*bata frita, link, suporte, nos contatos*/
 footer .conteiner h3{
  margin-bottom: 16px;
  font-weight: 600;
 }
 
-
 /*logos instagram e etc*/
 footer .conteiner .redes-socias img{
     margin-right: 200px;
 }
 
-
 /*Nos ctt pra baixo*/
 footer .conteiner ul > p{
  margin-bottom: 40px;
 }
-
 
 footer .conteiner li{
 margin: 10px 0;
@@ -79,15 +85,3 @@ footer .conteiner a{
 *{
     text-decoration: none;
 }
-
-
-
-body {
-    background-image:url(imagens/imagem.jpeg.jpg) ; /*ele importa a imagem do arquivo ou da url*/
-    background-repeat:no-repeat; /*Serve pra não repetir a imagem*/
-    background-position: center; /*Esta centralizando ele no meio da tela*/
-    background-size: cover;/*Esta fazendo a função de cobrir a tela*/
-
-    /*Coloca imagem no fundo do texto*/
-}
-
