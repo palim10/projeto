@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+
+}
+
+header div {
+    max-width: 900px;
+    padding: 0 10px 0 0;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+/* footer */
+
+ /* quadrado rodape*/
+footer {
+       
+    }
+    
+
+
+  /* quadrado rodape*/
+footer .conteiner{
+   display: flex;
+   color: white;
+}
+
+
+/* quadrado sla*/
+footer .conteiner ul{ 
+    width: 25%;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+
+/*bata frita, link, suporte, nos contatos*/
+footer .conteiner h3{
+ margin-bottom: 16px;
+ font-weight: 600;
+}
+
+
+/*logos instagram e etc*/
+footer .conteiner .redes-socias img{
+    margin-right: 200px;
+}
+
+
+/*Nos ctt pra baixo*/
+footer .conteiner ul > p{
+ margin-bottom: 40px;
+}
+
+
+footer .conteiner li{
+margin: 10px 0;
+}
+
+/*links rodape*/
+footer .conteiner a{
+  color: white;  
+}
+
+*{
+    text-decoration: none;
+}
+
+
+
+body {
+    background-image:url(imagens/imagem.jpeg.jpg) ; /*ele importa a imagem do arquivo ou da url*/
+    background-repeat:no-repeat; /*Serve pra não repetir a imagem*/
+    background-position: center; /*Esta centralizando ele no meio da tela*/
+    background-size: cover;/*Esta fazendo a função de cobrir a tela*/
+
+    /*Coloca imagem no fundo do texto*/
+}
+
